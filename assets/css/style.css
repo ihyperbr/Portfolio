@@ -512,14 +512,9 @@ p {
   width: 0; 
 }
 
-.section-curso{
-  margin-bottom: 500px;
-}
-
 .cursos{
-  width: 33.3%;
   float: left;
-  padding-left: -20px;
+  margin: 30px 0 0 50px;
 }
 
 .cursos h3{
@@ -539,7 +534,7 @@ p {
 
 .text-curso{
   width: 100%;
-  margin: 30px 0px;
+  margin: 20px 15px;
 }
 
 /*===========================
@@ -1029,11 +1024,12 @@ p {
 
   .single-skills {padding: 15px;}  
   
-  .cursos{width: 100%;}
+  .cursos{
+    width: 100%; 
+    margin: 0;
+  }
 
   .text-curso{margin: 20px 0;}
-
-  .section-curso{margin-bottom: 1100px;}
 
   .title-project {font-size: 30px;} 
 
@@ -1098,9 +1094,10 @@ p {
     padding-bottom: 100px; 
   } 
 
-  .section-curso{margin-bottom: 1100px;}
-
-  .cursos{width: 100%;}
+  .cursos{
+    width: 100%; 
+    margin: 0;
+  }
 
   .text-curso{margin: 20px 0;}
 
@@ -1143,12 +1140,4 @@ p {
   } 
 
   .contact-box {padding: 10px 25px;} 
-}
-
-@media only screen and (max-width: 220px){
-  .section-curso{margin-bottom: 1500px;}
-}
-
-@media only screen and (max-width: 130px){
-  .section-curso{margin-bottom: 1850px;}
 }
