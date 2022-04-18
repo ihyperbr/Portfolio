@@ -1022,7 +1022,18 @@ p {
     padding-bottom: 80px; 
   }
 
-  .single-skills {padding: 15px;}  
+  .single-skills {padding: 15px;} 
+
+  .about-content .single-info .info-icon i {
+    font-size: 16px;
+    color: #4e68f9; 
+    margin-left: 0px;
+  }
+  
+  .about-content .single-info .info-text {
+    padding-left: 10px; 
+    margin-left: 10px;
+  }
   
   .cursos{
     width: 100%; 
