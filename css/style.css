@@ -265,7 +265,6 @@ p {
   width: 100%;
   text-align: center;
   padding-left: 27%;
-  background-color: var(--bg-color);
 }
 
 .navigation .navbar .navbar-nav .nav-item.active a, .navigation .navbar .navbar-nav .nav-item:hover a {color: var(--subtitle-color);}
