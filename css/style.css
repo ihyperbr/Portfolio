@@ -498,18 +498,18 @@ input.toggle-control + label::before, input.toggle-control + label::after {
 }		
 
 input.toggle-control + label::before {
-    background: var(--body-color);
+    background: var(--title-color);
     border-radius: 60px;
 }
 
 input.toggle-control + label::after {
     width: 18px;
-    background: var(--subtitle-color);
+    background: var(--subtitle2-color);
     border-radius: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-input.toggle-control:checked + label::before { background: var(--body-color); }
+input.toggle-control:checked + label::before { background: var(--subtitle-color); }
 input.toggle-control:checked + label::after { margin-left: 20px; }
 
 /*===========================
